@@ -1,0 +1,55 @@
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #293846;
+}
+.navBar .navBar-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 50%;
+}
+
+.navBar .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: larger;
+  flex: 50%;
+}
+
+.navBar-list #row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navBar-list #row:hover {
+  cursor: pointer;
+  background-color: #293846;
+}
+.navBar-list #icon {
+  padding-right: 7px;
+}
+
+.navBar-list a {
+  color: rgba(255, 255, 255, 0.445);
+  text-decoration: none;
+  font-weight: bold;
+}

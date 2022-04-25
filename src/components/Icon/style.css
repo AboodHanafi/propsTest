@@ -1,0 +1,10 @@
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons h3,
+i {
+  padding: 10px;
+}

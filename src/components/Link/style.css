@@ -1,0 +1,11 @@
+.link a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.link a:hover {
+  cursor: pointer;
+  color: red;
+}
